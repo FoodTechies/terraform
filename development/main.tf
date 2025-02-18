@@ -5,6 +5,6 @@ module "instance" {
   instance_type = "t2.medium"
   instance_name = "darshan"
   bucket_name   = "darshan"
-  env           = dev
+  env           = "dev"
   username      = "darshan"
 }
